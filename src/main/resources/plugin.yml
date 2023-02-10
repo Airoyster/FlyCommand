@@ -1,0 +1,9 @@
+name: FlyPlugin
+version: '${project.version}'
+main: de.airoyster.fly.Main
+api-version: 1.19
+commands:
+  fly:
+permissions:
+  system.fly:
+    default: op
